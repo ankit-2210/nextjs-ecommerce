@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-const forget = () => {
+const Forget = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [cpassword, setCpassword] = useState("");
@@ -155,4 +155,4 @@ const forget = () => {
     )
 }
 
-export default forget
+export default Forget

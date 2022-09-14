@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const profile = () => {
+const Profile = () => {
     const router = useRouter();
 
     const [name, setName] = useState("");
@@ -241,4 +241,4 @@ const profile = () => {
     )
 }
 
-export default profile
+export default Profile

@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Product from "../models/Product"
 import mongoose from "mongoose";
 
-const mugs = ({ products }) => {
-    console.log(products);
+const Mugs = ({ products }) => {
+    // console.log(products);
     return (
         <div>
             <section className="text-gray-600 body-font">
@@ -92,4 +92,4 @@ export async function getServerSideProps(context) {
 }
 
 
-export default mugs
+export default Mugs

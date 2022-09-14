@@ -4,7 +4,7 @@ import Product from "../models/Product"
 import mongoose from "mongoose";
 import Image from 'next/image'
 
-const stickers = ({ products }) => {
+const Stickers = ({ products }) => {
     return (
         <div>
             <section className="text-gray-600 body-font">
@@ -93,4 +93,4 @@ export async function getServerSideProps(context) {
 
 
 
-export default stickers
+export default Stickers

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const adminLogin = () => {
+const AdminLogin = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -143,5 +143,5 @@ const adminLogin = () => {
     )
 }
 
-export default adminLogin;
+export default AdminLogin;
 

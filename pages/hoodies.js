@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Product from "../models/Product"
 import mongoose from "mongoose";
 
-const hoodies = ({ products }) => {
+const Hoodies = ({ products }) => {
     return (
         <div>
             <section className="text-gray-600 body-font">
@@ -91,4 +91,4 @@ export async function getServerSideProps(context) {
 
 
 
-export default hoodies
+export default Hoodies

@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Order from "../models/Order"
 import connectDB from "../middleware/mongoose"
 
-const orders = () => {
+const Orders = () => {
     const [orders, setOrders] = useState([]);
 
     const router = useRouter();
@@ -73,4 +73,4 @@ const orders = () => {
 
 
 
-export default orders
+export default Orders

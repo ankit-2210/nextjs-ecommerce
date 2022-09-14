@@ -8,7 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
+const Checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");
@@ -283,4 +283,4 @@ const checkout = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
     )
 }
 
-export default checkout
+export default Checkout

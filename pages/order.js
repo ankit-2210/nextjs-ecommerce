@@ -7,7 +7,7 @@ import connectDB from "../middleware/mongoose"
 import mongoose from 'mongoose';
 import Error from 'next/error'
 
-const order = ({ order, clearCart, error }) => {
+const Orderr = ({ order, clearCart, error }) => {
     // console.log(error);
     const router = useRouter();
     const products = order.products;
@@ -96,4 +96,4 @@ export async function getServerSideProps(context) {
     }
 }
 
-export default order
+export default Orderr
