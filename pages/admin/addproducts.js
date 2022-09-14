@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import BaseCard from "../../src/components/baseCard/BaseCard";
 
-const addproducts = () => {
+const Addproducts = () => {
     const [title, setTitle] = useState("");
     const [category, setCategory] = useState("");
     const [slug, setSlug] = useState("");
@@ -163,4 +163,4 @@ const addproducts = () => {
     )
 }
 
-export default addproducts;
+export default Addproducts;
