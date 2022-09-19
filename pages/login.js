@@ -31,6 +31,7 @@ const Login = () => {
         let data = await res.json();
         console.log(data);
 
+
         setEmail("");
         setPassword("");
 
