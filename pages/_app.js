@@ -130,7 +130,7 @@ function MyApp({ Component, pageProps }) {
     <LoadingBar
       color='#07bc0c'
       progress={progress}
-      waitingTime={500}
+      waitingTime={200}
       onLoaderFinished={() => setProgress(0)}
     />
     {key && <Navbar user={user} logout={logout} cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal} />}

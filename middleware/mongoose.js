@@ -13,3 +13,5 @@ const connectDB = handler => async (req, res) => {
 }
 
 export default connectDB;
+
+// MONGO_URI=mongodb://localhost:27017/ecommerceNext

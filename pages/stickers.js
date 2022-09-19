@@ -17,7 +17,7 @@ const Stickers = ({ products }) => {
                                 <Link passHref={true} key={products[item]._id} href={`/product/${products[item].slug}`} >
                                     <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-4">
                                         <a className="block relative  rounded overflow-hidden">
-                                            <Image alt="ecommerce" className="w-full h-full block md:m-4" src={products[item].img} />
+                                            <img alt="ecommerce" className="w-full h-full block md:m-4" src={products[item].img} />
                                         </a>
                                         <div className="mt-4 text-center">
                                             <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Stickers</h3>
